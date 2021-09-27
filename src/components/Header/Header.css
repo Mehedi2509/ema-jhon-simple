@@ -1,0 +1,39 @@
+.header{
+    text-align: center;
+    margin-left: -4%;
+}
+.header img{
+    height: 80px; 
+}
+.navber{
+    margin-top: 20px;
+    background-color: teal;
+    padding: 10px;
+}
+.navber a{
+    text-decoration: none;
+    color:white;
+margin-left: 25px;
+font-size: 18px;
+font-weight: 700;
+padding: 10px;
+}
+.navber a:hover{
+    background-color: black;
+    border-radius: 5px;
+}
+
+@media only screen and (max-width:600px) {
+    .header{
+        margin-left: -12%;
+    }
+    .header img{
+        height: 50px; 
+    }
+    .navber{
+        margin-top: 5px;
+    }
+    .navber a{
+        font-size: 14px;
+    }
+}

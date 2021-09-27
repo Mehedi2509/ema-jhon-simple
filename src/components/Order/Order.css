@@ -1,0 +1,17 @@
+div{
+    margin-left: 20px;
+}
+
+h2{
+    text-align: center;
+    color: rgb(85, 84, 84);
+    font-weight: 800;
+}
+h3{
+    color: rgb(160, 118, 118);
+    font-weight: 800;
+}
+p{
+    font-size: 14px;
+    font-weight: 500;
+}

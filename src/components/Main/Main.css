@@ -1,0 +1,21 @@
+.main-section{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
+.carts{
+    border-right: 1px solid lightslategray;
+}
+.order-summary{
+    margin-left: 10px;
+}
+
+@media only screen and (max-width:600px) {
+    .main-section{
+        display: block;
+        width: 100%;
+        margin-left: -10%;
+    }
+    .carts{
+        border: none;
+    }
+}

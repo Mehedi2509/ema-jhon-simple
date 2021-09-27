@@ -1,0 +1,41 @@
+.cart{
+    display: grid;
+    grid-template-columns: 1.5fr 3fr;
+    border-bottom: 1px solid lightslategray;
+    margin: 0 10px 0px 200px;
+}
+.cart-details h4{
+    color:rgb(55, 124, 64);
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.cart-btn{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    padding: 5px 70px;
+    background-color: teal;
+    color: whitesmoke;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+@media only screen and (max-width:600px) {
+    .cart{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: 0;
+        margin-bottom: 20px;
+    }
+    .image{
+        width: 100%;
+    }
+    .cart-details h4{
+        color:rgb(55, 124, 64);
+        font-size: 14px;
+        font-weight: 700;
+    }
+    p{
+        font-size: 8px;
+    }
+}
